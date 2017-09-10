@@ -551,13 +551,3 @@ Processing
 * Processing Immediate Mode: All ```beginShape/endShape``` examples
 * Processing Retained mode: All ```PShape``` examples
 * Processing [Low-Level, via OpenGL](https://github.com/processing/processing/wiki/Advanced-OpenGL)
-
-H:
-
-## Workshop
-
-> Draw the [platonic solids](https://en.wikipedia.org/wiki/Platonic_solid) immediate and retained Processing modes
-
-Optionals:
-1. Doing it in OpenGL
-2. Doing it using [hemesh](http://www.wblut.com/he_mesh/)
