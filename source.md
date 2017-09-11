@@ -233,9 +233,9 @@ V:
 
 <img style="float:left" height="300" src="fig/cube.png">
 
-
 ```glsl
-//Draw a cube
+// Same as explicit mesh representation
+// Draw a cube
 // 36 of vertex coords: 3 vertices per tri
 //                      12 tris (2 per face)
 glBegin(GL_TRIANGLES); 
@@ -270,9 +270,9 @@ V:
 
 <img style="float:left" height="300" src="fig/cube.png">
 
-
 ```glsl
-//Draw a cube where somewhere in your application you have:
+// Same as face-vertex mesh representation
+// Draw a cube where somewhere in your application you have:
 // v0 : [x0,y0,z0]
 // v1 : [x0,y0,z0]
 // ...
@@ -313,8 +313,8 @@ Immediate mode: Vertex Arrays / glVertexPointer() / glDrawArrays()
 
 <img style="float:left" height="300" src="fig/cube.png">
 
-
 ```glsl
+// Same as explicit mesh representation
 GLfloat vertices[] = {...}; // 36 of vertex coords
 ...
 // activate and specify pointer to vertex array
@@ -338,8 +338,8 @@ Immediate mode (specification & rendering): Vertex Arrays / glVertexPointer() / 
 
 <img style="float:left" height="300" src="fig/cube.png">
 
-
 ```glsl
+// Same as face-vertex mesh representation
 GLfloat vertices[] = {...};          // 8 of vertex coords
 GLubyte indices[] = {0,1,2, 2,3,0,   // 36 of indices
                      0,3,4, 4,5,0,
@@ -369,8 +369,8 @@ Retained mode: (VBOs specification) / glVertexPointer() / glDrawElements()
 
 <img style="float:left" height="300" src="fig/cube.png">
 
-
 ```glsl
+// Same as face-vertex mesh representation
 GLfloat vertices[] = {...};          // 8 of vertex coords
 GLubyte indices[] = {0,1,2, 2,3,0,   // 36 of indices
                      0,3,4, 4,5,0,
@@ -391,7 +391,6 @@ Retained mode: (VBOs generation and transfer) / glVertexPointer() / glDrawElemen
 
 <img style="float:left" height="300" src="fig/cube.png">
 
-
 ```glsl
 // Generate 2 VBOs
 glGenBuffers(2, vboIds);
@@ -409,7 +408,6 @@ V:
 Retained mode: (VBOs rendering) / glVertexPointer() / glDrawElements()
 
 <img style="float:left" height="300" src="fig/cube.png">
-
 
 ```glsl
 glBindBufferARB(GL_ARRAY_BUFFER_ARB, vboId1);
