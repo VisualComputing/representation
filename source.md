@@ -62,6 +62,7 @@ V:
 V:
 
 ## Intro: Polygonal Meshes
+### Modelling
 
 <figure>
     <img height='400' src='fig/bunny-shell.jpg'/>
@@ -71,6 +72,7 @@ V:
 V:
 
 ## Intro: Polygonal Meshes
+### Modelling
 
 <figure>
     <img height='400' src='fig/interior.jpg'/>
@@ -80,15 +82,7 @@ V:
 V:
 
 ## Intro: Polygonal Meshes
-
-<figure>
-    <img height='400' src='fig/lod.png'/>
-    <figcaption><a href="http://en.wikipedia.org/wiki/Level_of_detail">Level-Of-Detail (LOD)</a></figcaption>
-</figure>
-
-V:
-
-## Intro: Polygonal Meshes
+### Terrain visualization
 
 <figure>
     <img height='400' src='fig/terrain.jpg'/>
@@ -98,9 +92,29 @@ V:
 V:
 
 ## Intro: Polygonal Meshes
+### (View Independent) Multiresolution
+
+<figure>
+    <img height='400' src='fig/lod.png'/>
+    <figcaption><a href="http://en.wikipedia.org/wiki/Level_of_detail">Level-Of-Detail (LOD)</a></figcaption>
+</figure>
+
+V:
+
+## Intro: Polygonal Meshes
+### (View Dependent) Multiresolution
 
 <section>
 	<iframe data-autoplay width="420" height="345" src="http://www.youtube.com/embed/2UIgHTkqo9Q"></iframe>
+</section>
+
+V:
+
+## Intro: Polygonal Meshes
+### Mesh Deformations
+
+<section>
+	<iframe data-autoplay width="420" height="345" src="http://www.youtube.com/embed/ZgTd2sGWwnw"></iframe>
 </section>
 
 V:
@@ -192,7 +206,7 @@ N:
 V:
 
 ## Polygonal Meshes Representation
-### Helf-edge meshes
+### Half-edge meshes
 
 * Half-edges -> split edges in two oriented parts
 * Half-edges store the main connectivity information:
@@ -205,7 +219,7 @@ N:
 V:
 
 ## Polygonal Meshes Representation
-### Helf-edge meshes
+### Half-edge meshes
 
 <figure>
     <img height='380' src='fig/he_mesh1.png'/>
@@ -214,6 +228,18 @@ V:
 
 N:
 + Critical operation for several algorithms
+
+V:
+
+## Polygonal Meshes Representation
+### Others
+
+* [Winged edge meshes](https://en.wikipedia.org/wiki/Polygon_mesh#Winged-edge_meshes)
+<!-- .element: class="fragment" data-fragment-index="1"-->
+* [Render dynamic meshes](https://en.wikipedia.org/wiki/Polygon_mesh#Render_dynamic_meshes)
+<!-- .element: class="fragment" data-fragment-index="2"-->
+
+Check the [comparative table](https://en.wikipedia.org/wiki/Polygon_mesh#Summary_of_mesh_representation) <!-- .element: class="fragment" data-fragment-index="3"-->
 
 H:
 
