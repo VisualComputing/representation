@@ -232,14 +232,22 @@ N:
 V:
 
 ## Polygonal Meshes Representation
+### Winged-edge
+
+<figure>
+    <img height='380' src='fig/we.jpg'/>
+    <figcaption>[Winged-edge](https://en.wikipedia.org/wiki/Polygon_mesh#Winged-edge_meshes)</figcaption>
+</figure>
+
+V:
+
+## Polygonal Meshes Representation
 ### Others
 
-* [Winged edge meshes](https://en.wikipedia.org/wiki/Polygon_mesh#Winged-edge_meshes)
-<!-- .element: class="fragment" data-fragment-index="1"-->
 * [Render dynamic meshes](https://en.wikipedia.org/wiki/Polygon_mesh#Render_dynamic_meshes)
-<!-- .element: class="fragment" data-fragment-index="2"-->
+<!-- .element: class="fragment" data-fragment-index="1"-->
 
-Check the [comparative table](https://en.wikipedia.org/wiki/Polygon_mesh#Summary_of_mesh_representation) <!-- .element: class="fragment" data-fragment-index="3"-->
+Check the [comparative table](https://en.wikipedia.org/wiki/Polygon_mesh#Summary_of_mesh_representation) <!-- .element: class="fragment" data-fragment-index="2"-->
 
 H:
 
