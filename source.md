@@ -106,7 +106,7 @@ V:
 ### (View Dependent) Multiresolution
 
 <section>
-	<iframe data-autoplay width="420" height="345" src="http://www.youtube.com/embed/2UIgHTkqo9Q"></iframe>
+	<iframe data-autoplay width="420" height="345" src="https://www.youtube.com/embed/2UIgHTkqo9Q"></iframe>
 </section>
 
 V:
@@ -115,7 +115,7 @@ V:
 ### Mesh Deformations
 
 <section>
-	<iframe data-autoplay width="420" height="345" src="http://www.youtube.com/embed/ZgTd2sGWwnw"></iframe>
+	<iframe data-autoplay width="420" height="345" src="https://www.youtube.com/embed/ZgTd2sGWwnw"></iframe>
 </section>
 
 V:
