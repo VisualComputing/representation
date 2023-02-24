@@ -22,7 +22,9 @@ H:
 # Polygonal meshes
 
 Jean Pierre Charalambos  
-[Universidad Nacional de Colombia](https://unal.edu.co/)
+[Universidad Nacional de Colombia](https://unal.edu.co/)  
+Presentation best seen [online](http://visualcomputing.github.io/representation/)  
+See also the [source code](https://github.com/VisualComputing/representation)
 
 H:
 
